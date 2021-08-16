@@ -1,1 +1,13 @@
 <paste log output from Docker prediction, here>
+
+[2021-08-15 09:52:25,921] INFO in app: PREDICTION: 
+[20.35373177134412]
+172.17.0.1 - - [15/Aug/2021 09:52:25] "POST /predict HTTP/1.1" 200 -
+
+(.devops) ec2-user:~/environment/UdacityP4 (master) $ ./make_prediction.sh
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
