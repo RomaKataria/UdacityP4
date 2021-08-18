@@ -42,3 +42,20 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+Files in the repo
+
+1.Circleci folder
+2.model data folder
+3.Output test files folder
+4.Makefile
+5.README.md
+6.app.py
+7. make_prediction.sh
+8. minikube-linux-amd64
+9.requirements.txt
+10.resize.sh
+11.run_docker.sh
+12.run_kubernetes.sh
+13.upload_docker.sh
+
