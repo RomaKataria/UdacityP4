@@ -1,1 +1,17 @@
 <paste log output from Kubernetes-mediated prediction, here>
+(.devops) ec2-user:~/environment/UdacityP4 (master) $ ./run_kubernetes.sh
+Error from server (AlreadyExists): pods "latest" already exists
+NAME     READY   STATUS    RESTARTS   AGE
+latest   1/1     Running   1          40h
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+
+(.devops) ec2-user:~/environment/UdacityP4 (master) $ ./make_prediction.sh
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
+(.devops) ec2-u
+
